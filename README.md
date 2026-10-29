@@ -2,6 +2,10 @@
 
 Real-time, browser-local AR filters controlled by **three or four fingertips**, on one hand or across both hands. The two-finger beam system has been removed from recognition, rendering, assignments, and the interface.
 
+## Run from a GitHub checkout
+
+The Git repository contains source. After cloning, run `npm ci` followed by `npm run build` and `npm start`. Installation downloads the official model and prepares WASM locally. The standalone ZIP delivery includes the prebuilt assets described below.
+
 ## Run
 
 On Windows, extract the ZIP and double-click **Start Finger Portal.cmd**. Keep the terminal open. Node.js 22.12+ is required; Node 24 is already installed on the development machine.
