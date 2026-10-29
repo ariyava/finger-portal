@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+.sites-runtime/
+
+public/wasm/
+public/vendor/
+public/models/
+public/hand-worker.js
+
